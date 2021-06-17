@@ -50,27 +50,29 @@ We give four use scenarios of the integrated mobility data to further analyze th
 
 -->
 
-##  Datasets and logistics
+## Categories & prizes
+
+There are two categories a team can participate in: student and general.
 
 <!--
-Each team should collect their own traces using Google Location Service from Google Takeout, and anonymize the data by themselves if needed.
+Describe the prizes per category
 -->
+
+##  Team formation
+
+Teams participating in the student category will be composed only of students, not counting mentors.
+
+Teams participating in the general category do not have any restriction.
+
+In any case, a team cannot be more than 6 persons, excluding mentors.
 
 ## Mentors
 
-<!--
-Reference technologies: 
+Teams of students can team up with one mentor from the industry and one mentor coming from the academia.
 
-differential privacy for deep learning, e.g., https://github.com/tensorflow/privacy
+##  Submission deadline
 
-differential privacy for aggregation queries, e.g., https://github.com/google/differential-privacy
-
-TEE and Intel-SGX, e.g., https://github.com/openenclave/openenclave
-
-Python cryptograph libraries, e.g. https://github.com/pyca/cryptography
--->
-
-## Learning materials
+All submissions need to be finalized by Monday September 30, midnight Eastern Standard Time, Time zone in New York, NY (GMT-5).
 
 ##  List of expected deliverables
 
@@ -96,6 +98,28 @@ The report must either contain the url to the GitHub repository or the link to t
 #### An emulation of the application should be easily setup in one desktop through docker containers (i.e., local host service + local application emulation). The GitHub repository should detail the steps for repeatability using docker containers. 
 -->
 
+
+##  Datasets and logistics
+
+<!--
+Each team should collect their own traces using Google Location Service from Google Takeout, and anonymize the data by themselves if needed.
+-->
+
+<!--
+Reference technologies: 
+
+differential privacy for deep learning, e.g., https://github.com/tensorflow/privacy
+
+differential privacy for aggregation queries, e.g., https://github.com/google/differential-privacy
+
+TEE and Intel-SGX, e.g., https://github.com/openenclave/openenclave
+
+Python cryptograph libraries, e.g. https://github.com/pyca/cryptography
+-->
+
+## Learning materials
+
+
 # Evaluation criteria
 
 <!--
@@ -111,15 +135,6 @@ The evaluation will be conducted in Gavel platform based on pairwise comparison,
 4.	Easiness for setting up and using the system (0 –9 scale);
 
 5.	Performance, usability, and reliability of the system (0-9 scale)
-
-
-#  Team Formation
-
-A team should have no more than six persons;
-
-#  Submission Deadline
-
-All submissions need to be finalized by Monday Dec 21, noon Eastern Standard Time, Time zone in New York, NY (GMT-5). 
 -->
 
 ##  References
