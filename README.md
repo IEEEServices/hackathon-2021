@@ -5,10 +5,6 @@
 
 IEEE Services Hackathon is an event collocated with the [2021 IEEE World Congress on Services](https://conferences.computer.org/services/2021/) (SERVICES 2021), and is sponsored by the IEEE Computer Society. The IEEE Computer Society established the services computing initiative two decades ago in response to the fast-growing service industry as well as the exponential rise in computing professionals.
 
-<!--
-For team and mentor registration, please go to the event website: https://ieeeservices.github.io/
--->
-
 # The cloud as a quantum-computing accelerator
 
 >These machines, now called mainframes, were locked away in specially air conditioned computer rooms, with staffs of professional operators to run them. Only big corporations or major government agencies or universities could afford the multimillion dollar price tag. To run a job (i.e., a program or set of programs), a programmer would first write the program on paper (in FORTRAN or assembler), then punch it on cards. He would then bring the card deck down to the input room and hand it to one of the operators and go drink coffee until the output was ready.
@@ -29,34 +25,23 @@ We envision a future of quantumn services and invite all the community of proffe
 
 We challenge the participants to create innovative cloud services on top of custom quantum programs or to find novel applications for the Qiskit Runtime's built-in library.
 
-<!--
-### Scope of the challenge
--->
-
-
 ##  Motivating scenarios (use cases)
 
+Many near-term quantum algorithms are variational, i.e., they involve an optimization loop between classical and quantum computers. For such algorithms the Qiskit Runtime is crucial to improve performance and to scale to larger systems. In the following we'll introduce the currently available Qiskit Runtimes and discuss possible applications:
+
+**Variational Quantum Eigensolver (VQE) Runtime**: VQE is an algorithm to approximate the ground state of a given Hamiltonian by replacing the full exponential Hilbert space by a sub-space determined via a parametrized quantum circuit. A classical optimizer is then used to find the optimal parameters that minimize the expected value defined by the circuit and Hamiltonian. VQE can be applied in many domains, e.g. to find groundstates in quantum chemistry or to find good solutions to combinatorial optimization problems. Finding groundstates is a fundamental task in chemistry and eventually will enable designing new materials, catalysts, etc. Combinatorial optimization is very difficult classically, since the number of possibilities scales exponentially with the number of variables. Possible applications range from portfolio optimization, to optimal routing, to protein folding.
+
+**Quantum Approximate Optimization Algorithm (QAOA)**: One key question for VQE is how to chose the parametrized quantum circuit for a given problem. QAOA is a variant of VQE particularly suited for combinatorial optimization where the circuits are constructed based on the given problem and with some convergence guarantees if the circuits could be made long enough. Thus, QAOA has the same applications as VQE but is particularly suited for combinatorial optimization.
+
+**Quantum Kernel Alignment (QKA)**: Quantum computers allow to evaluate kernels to be used e.g. in Support Vector Machines (SVM) on exponentially large feature spaces. This may help to improve the performance of machine learning models and lead to higher accuracies. QKA extends this idea to parametrized kernels that are trained to best match the data. The QKA Runtime allows to align to and evaluate the kernel for given data in the cloud and uses is it for classification tasks such as fraud detection.
+
 <!--
-
-We give four use scenarios of the integrated mobility data to further analyze the requirements. Your solution should be focused on one scenario, which can be one of, but not limited to any of these scenarios.
-
-•	Pandemic control and precaution. In this scenario, each individual voluntarily uploads their daily mobility histories, as well as health check information, e.g. whether they have coronavirus symptoms, whether they have contacted any coronavirus patients, and whether they have diagnosed with coronavirus. Then users who have been in the proximity of high-risk locations will be notified. 
-
-•	Product recommendation. In this scenario, the service provider is able to collect the mobility history of each individual. These data will be used to analyze and infer the preference of each user and recommend restaurants, coffee shops, events, and so on.
-
-•	User profile analysis. In this scenario, the service provider is able to collect mobility history of each individual and their preference information such as hobby, age, favourite books, educational level and so on. These data will be used to analyze and discover patterns of the group of users who frequently visit a certain location, which can be a restaurant, a coffee shop, an event and so on.
-
-•	Map Service. In this scenario, each individual voluntarily uploads their daily mobility histories, and the data will be integrated with a map, so that it will visualize mobility at each location at different times. Users can also use this information to choose less popular places for shopping, travel and so on.
-
+Add "upload your own program".
 -->
 
 ## Categories & prizes
 
-There are two categories a team can participate in: student and general.
-
-<!--
-Describe the prizes per category
--->
+There are two categories a team can participate in: student and general. Prize will be in cash, awarded to the best submission, and will be announced later.
 
 ##  Team formation
 
@@ -64,13 +49,17 @@ Teams participating in the student category will be composed only of students, n
 
 Teams participating in the general category do not have any restriction.
 
-In any case, a team cannot be more than 6 persons, excluding mentors.
+In any case, **a team cannot be more than 6 participants**, excluding mentors, and a participant can join only one team.
 
 ## Mentors
 
-Teams of students can team up with one mentor from the industry and one mentor coming from the academia.
+Teams of students can team up with one mentor from the industry and one mentor coming from the academia. [Find your mentor](https://airtable.com/shrxy3zEj8wM5ipLR)!
 
-##  Submission deadline
+**Want to be a mentor?** [Register](https://airtable.com/shrxy3zEj8wM5ipLR), access the [Qiskit Slack workspace](https://ibm.co/joinqiskitslack), and join the channel `#ieeeservices-hackathon-21`.
+
+##  Submissions & submission deadline
+
+A team can only participate with one submission
 
 All submissions need to be finalized by Monday September 30, midnight Eastern Standard Time, Time zone in New York, NY (GMT-5).
 
