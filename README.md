@@ -45,21 +45,23 @@ There are two categories a team can participate in: student and general. Prize w
 
 ##  Team formation
 
+For team registration, fill the [Team Registration template]() and click on "Submit new issue".
+
 Teams participating in the student category will be composed only of students, not counting mentors.
 
 Teams participating in the general category do not have any restriction.
 
-In any case, **a team cannot be more than 6 participants**, excluding mentors, and a participant can join only one team.
+In any case, **a team cannot be more than 6 participants**, excluding mentors, and **a participant can join only one team**.
 
 ## Mentors
 
 Teams of students can team up with one mentor from the industry and one mentor coming from the academia. [Find your mentor](https://airtable.com/shrxy3zEj8wM5ipLR)!
 
-**Want to be a mentor?** [Register](https://airtable.com/shrxy3zEj8wM5ipLR), access the [Qiskit Slack workspace](https://ibm.co/joinqiskitslack), and join the channel `#ieeeservices-hackathon-21`.
+**Want to be a mentor?** [Register](https://airtable.com/shr1CbDksw2htnG48), access the [Qiskit Slack workspace](https://ibm.co/joinqiskitslack), and join the channel `#ieeeservices-hackathon-21`.
 
 ##  Submissions & submission deadline
 
-A team can only participate with one submission
+A team can only participate with one submission.
 
 All submissions need to be finalized by Monday September 30, midnight Eastern Standard Time, Time zone in New York, NY (GMT-5).
 
