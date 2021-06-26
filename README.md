@@ -39,19 +39,24 @@ Many near-term quantum algorithms are variational, i.e., they involve an optimiz
 Add "upload your own program".
 -->
 
+## Code of Conduct
+
+By participating in the IEEE Services 2021 hackathon, you abide by the [Qiskit Code of Conduct](https://github.com/Qiskit/qiskit/blob/master/CODE_OF_CONDUCT.md).
+
 ## How to participate
 
 Here you have a summary about how to participate. Along this README, you will find more details about the conference. We encourage reading it from begenning to end.
 
-1. Choose a [category](#categories-prizes) to participate.
-2. Find your [team members](#team-formation) and [register the project](https://github.com/IEEEServices/hackathon-2021/issues/new?assignees=&labels=&template=project-registration.md&title=Project+name). Do this as soon as possible, you can modify the project details later.
-3. Start hacking!
-4. Upon submission deadline on **September, 30th**, ensure that you...
+1. If you did not read the [code of conduct](https://github.com/Qiskit/qiskit/blob/master/CODE_OF_CONDUCT.md), start by reading it.
+2. Choose a [category](#categories-prizes) to participate.
+3. Find your [team members](#team-formation) and [register the project](https://github.com/IEEEServices/hackathon-2021/issues/new?assignees=&labels=&template=project-registration.md&title=Project+name). Do this as soon as possible, you can modify the project details later.
+4. Start hacking!
+5. Upon submission deadline on **September, 30th**, ensure that you...
   - License your project under the [Apache license 2.0](https://www.apache.org/licenses/LICENSE-2.0).
   - Write a [report](#project-report) explaning your project and upload it to https://arxiv.org
   - [Tag the final version](https://git-scm.com/book/en/v2/Git-Basics-Tagging) of your project with the tag `submission`.
-5. Wait for [winners announcement](#categories-and-prizes).
-6. Present at SERVICES 2021!
+6. Wait for [winners announcement](#categories--prizes).
+7. Present at SERVICES 2021!
 
 ## Categories & prizes
 
@@ -59,17 +64,30 @@ There are two categories a team can participate in: student and general.
 
 Best teams will receive a certificate, a prize in cash and the opportunity of presenting its proposal in a session at SERVICES 2021 conference.
 
-##  Submissions & submission deadline
+## Projects & deliverables
 
-All submissions need to be finalized by Monday September 30, midnight Eastern Standard Time, Time zone in New York, NY (GMT-5).
+To register a new project, fill the [Project Registration template](https://github.com/IEEEServices/hackathon-2021/issues/new?assignees=&labels=&template=project-registration.md&title=Project+name).
 
-A team can only participate with one submission. The submission is a GitHub repository with a piece of software, and a report detailed [later in this document](#project-report).
+A team can only participate with one project. The deliverable is a GitHub repository including, at least:
 
-By the deadline, the repository must be licensed under the [Apache license 2.0](https://www.apache.org/licenses/LICENSE-2.0), include the [tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging) `submission`, marking the final version of the submission, and contain the report. The report must be upload to [arxiv.org](https://arxiv.org) too.
+- The source code of the project.
+- A README file with instructions to test it<sup>*</sup>.
+- A LICENSE file with the [Apache license 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+- A report with an [specific format](#project-report), detailed later.
+
+<sup>*</sup>An easy way of testing the project is throught the use of [Docker containers](https://www.docker.com/resources/what-container) (i.e., local host service + local application emulation). The GitHub repository should detail the steps for repeatability using docker containers. 
+
+## Submitting & submission deadline
+
+All submissions need to be finalized by **Monday September 30, midnight Eastern Standard Time, Time zone in New York, NY (GMT-5)**.
+
+Upon submission, [tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging) the version of the project you want to be evaluated with the tag `submission`.
+
+Remember the repository should include all the files detailed in [Projects & deliverables](#project--deliverables).
 
 ##  Team formation
 
-For team registration, fill the [Team Registration template](https://github.com/IEEEServices/hackathon-2021/issues/new?assignees=&labels=&template=team-registration.md&title=Team+registration) and click on "Submit new issue".
+For team registration, add the names and institutions of the participants to your [project registration issue](https://github.com/IEEEServices/hackathon-2021/issues).
 
 Teams participating in the student category will be composed only of students, not counting mentors.
 
@@ -85,27 +103,14 @@ Teams of students can team up with one mentor from the industry and one mentor c
 
 ##  Project report
 
-<!--
-#### Source code that must be uploaded to an open GitHub repository and must have a well-documented README file describing the steps of using the product;
+The report contextualizes the project and summarizes the software design process. It should contain **no more than eight pages** describing:
 
-#### Video recording of demonstration that must be uploaded to YouTube;
-
-#### A report no more than 6 pages that describes:
-
-1. The motivation,
-
-2. Use scenario,
-
-3. At which level privacy preserving is provided and explanation of how privacy preserving is provided,
-
-4. Technologies used,
-
-5. Novelty of the product; 
-
-The report must either contain the url to the GitHub repository or the link to the YouTube video.
-
-#### An emulation of the application should be easily setup in one desktop through docker containers (i.e., local host service + local application emulation). The GitHub repository should detail the steps for repeatability using docker containers. 
--->
+1. Motivation. _Why building the project?_
+2. Innovation. _How original is the idea?_
+3. Applicability. _What is the estimated time horizon, and the required conditions for practical applicability?_
+4. Role of Qiskit Runtime. _Why the runtime plays a key role in the design?_
+5. Future applications. _What is the potential future use once the technology has matured enough?_
+6. Technology stack, design decisions, and architecture.
 
 ## Evaluation criteria
 
