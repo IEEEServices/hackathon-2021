@@ -39,17 +39,41 @@ Many near-term quantum algorithms are variational, i.e., they involve an optimiz
 Add "upload your own program".
 -->
 
+## How to participate
+
+Here you have a summary about how to participate. Along this README, you will find more details about the conference. We encourage reading it from begenning to end.
+
+1. Choose a [category](#categories-prizes) to participate.
+2. Find your [team members](#team-formation) and [register the project](https://github.com/IEEEServices/hackathon-2021/issues/new?assignees=&labels=&template=project-registration.md&title=Project+name). Do this as soon as possible, you can modify the project details later.
+3. Start hacking!
+4. Upon submission deadline on **September, 30th**, ensure that you...
+  - License your project under the [Apache license 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+  - Write a [report](#project-report) explaning your project and upload it to https://arxiv.org
+  - [Tag the final version](https://git-scm.com/book/en/v2/Git-Basics-Tagging) of your project with the tag `submission`.
+5. Wait for [winners announcement](#categories-and-prizes).
+6. Present at SERVICES 2021!
+
 ## Categories & prizes
 
-There are two categories a team can participate in: student and general. Prize will be in cash, awarded to the best submission, and will be announced later.
+There are two categories a team can participate in: student and general.
+
+Best teams will receive a certificate, a prize in cash and the opportunity of presenting its proposal in a session at SERVICES 2021 conference.
+
+##  Submissions & submission deadline
+
+All submissions need to be finalized by Monday September 30, midnight Eastern Standard Time, Time zone in New York, NY (GMT-5).
+
+A team can only participate with one submission. The submission is a GitHub repository with a piece of software, and a report detailed [later in this document](#project-report).
+
+By the deadline, the repository must be licensed under the [Apache license 2.0](https://www.apache.org/licenses/LICENSE-2.0), include the [tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging) `submission`, marking the final version of the submission, and contain the report. The report must be upload to [arxiv.org](https://arxiv.org) too.
 
 ##  Team formation
 
-For team registration, fill the [Team Registration template]() and click on "Submit new issue".
+For team registration, fill the [Team Registration template](https://github.com/IEEEServices/hackathon-2021/issues/new?assignees=&labels=&template=team-registration.md&title=Team+registration) and click on "Submit new issue".
 
 Teams participating in the student category will be composed only of students, not counting mentors.
 
-Teams participating in the general category do not have any restriction.
+Teams participating in the general category do not have any restriction but cannot have any mentor.
 
 In any case, **a team cannot be more than 6 participants**, excluding mentors, and **a participant can join only one team**.
 
@@ -59,13 +83,7 @@ Teams of students can team up with one mentor from the industry and one mentor c
 
 **Want to be a mentor?** [Register](https://airtable.com/shr1CbDksw2htnG48), access the [Qiskit Slack workspace](https://ibm.co/joinqiskitslack), and join the channel `#ieeeservices-hackathon-21`.
 
-##  Submissions & submission deadline
-
-A team can only participate with one submission.
-
-All submissions need to be finalized by Monday September 30, midnight Eastern Standard Time, Time zone in New York, NY (GMT-5).
-
-##  List of expected deliverables
+##  Project report
 
 <!--
 #### Source code that must be uploaded to an open GitHub repository and must have a well-documented README file describing the steps of using the product;
@@ -89,29 +107,7 @@ The report must either contain the url to the GitHub repository or the link to t
 #### An emulation of the application should be easily setup in one desktop through docker containers (i.e., local host service + local application emulation). The GitHub repository should detail the steps for repeatability using docker containers. 
 -->
 
-
-##  Datasets and logistics
-
-<!--
-Each team should collect their own traces using Google Location Service from Google Takeout, and anonymize the data by themselves if needed.
--->
-
-<!--
-Reference technologies: 
-
-differential privacy for deep learning, e.g., https://github.com/tensorflow/privacy
-
-differential privacy for aggregation queries, e.g., https://github.com/google/differential-privacy
-
-TEE and Intel-SGX, e.g., https://github.com/openenclave/openenclave
-
-Python cryptograph libraries, e.g. https://github.com/pyca/cryptography
--->
-
-## Learning materials
-
-
-# Evaluation criteria
+## Evaluation criteria
 
 <!--
 The evaluation will be conducted in Gavel platform based on pairwise comparison, based on Gavel's algorithm (https://www.anishathalye.com/2015/03/07/designing-a-better-judging-system). We will recommend our judges to consider following criteria when conducting pairwise comparisons.
@@ -127,6 +123,10 @@ The evaluation will be conducted in Gavel platform based on pairwise comparison,
 
 5.	Performance, usability, and reliability of the system (0-9 scale)
 -->
+
+
+## Learning materials
+
 
 ##  References
 
