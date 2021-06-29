@@ -48,7 +48,7 @@ By participating in the IEEE Services 2021 hackathon, you abide by the [Qiskit C
 Here you have a summary about how to participate. Along this README, you will find more details about the conference. We encourage reading it from begenning to end.
 
 1. If you did not read the [code of conduct](https://github.com/Qiskit/qiskit/blob/master/CODE_OF_CONDUCT.md), start by reading it.
-2. Choose a [category](#categories-prizes) to participate.
+2. Choose a [category](#categories--prizes) to participate.
 3. Find your [team members](#team-formation) and [register the project](https://github.com/IEEEServices/hackathon-2021/issues/new?assignees=&labels=&template=project-registration.md&title=Project+name). Do this as soon as possible, you can modify the project details later.
 4. Start hacking!
 5. Upon submission deadline on **September, 30th**, ensure that you...
