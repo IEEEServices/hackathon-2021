@@ -1,7 +1,7 @@
 ---
-name: Team registration
-about: Register your team
-title: Team registration
+name: Project registration
+about: Enter the hackathon with a project
+title: Project registration
 labels: ''
 assignees: ''
 
