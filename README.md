@@ -40,7 +40,8 @@ In addition to using the build-in programs, you can come up with your own Qiskit
 can help you and others accelerate their research. Much like the existing built-in programs, your
 new program will benefit the most from the Qiskit Runtime architecture if it requires iterative 
 quantum/classical processing. Ideally, the program would be flexible enough to suite a wide range of 
-applications but also easy to use.
+applications but also easy to use. [This tutorial](https://github.com/Qiskit-Partners/qiskit-runtime/blob/main/tutorials/02_uploading_program.ipynb)
+shows how to upload your own Qiskit Runtime program.
 
 
 ## Code of Conduct
