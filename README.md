@@ -9,19 +9,19 @@ IEEE Services Hackathon is an event collocated with the [2021 IEEE World Congres
 
 >These machines, now called mainframes, were locked away in specially air conditioned computer rooms, with staffs of professional operators to run them. Only big corporations or major government agencies or universities could afford the multimillion dollar price tag. To run a job (i.e., a program or set of programs), a programmer would first write the program on paper (in FORTRAN or assembler), then punch it on cards. He would then bring the card deck down to the input room and hand it to one of the operators and go drink coffee until the output was ready.
 
-–[A Hystory of Operating Systems](http://www.cosy.sbg.ac.at/~clausen/PVSE2006/printerfriendly.asp.htm), Andrew S. Tanenbaum
+–[A History of Operating Systems](http://www.cosy.sbg.ac.at/~clausen/PVSE2006/printerfriendly.asp.htm), Andrew S. Tanenbaum
 
 Quantum Computing promises to be a revolutionary milestone in the history of cloud services. There will be a day that quantum processors become a commodity and they will speed up complex calculus in a similar way that GPUs are doing nowadays. Developers, all around the world, will benefit from the ultimate computational power. 
 
 Until that date, quantum processors are a scarce resource, only available through the cloud, and working in a sort of a "batch mode", executing short, static, and noisy programs called [circuits](https://qiskit.org/textbook/ch-algorithms/defining-quantum-circuits.html#2.-What-is-a-Quantum-Circuit?-).
 
-Despite the limited execution time, and the relatively high level of noise, the success of near-time quantum computing seems to be at the reach of our fingertips thanks to the intimmate collaboration between classical and quantum computing. Cloud architectures leveraging colocation of classical and quantum resources, and reducing waiting times between the interacting parts, enable applicable fast, iterative dynamic workflows, where new circuits are created on the fly, according to the results of classical computations.
+Despite the limited execution time, and the relatively high level of noise, the success of near-time quantum computing seems to be at the reach of our fingertips thanks to the intimate collaboration between classical and quantum computing. Cloud architectures leveraging colocation of classical and quantum resources, and reducing waiting times between the interacting parts, enable applicable fast, iterative dynamic workflows, where new circuits are created on the fly, according to the results of classical computations.
 
 ## Proposed task
 
 Introduced by IBM Quantum, [Qiskit Runtime](https://quantum-computing.ibm.com/lab/docs/iql/runtime/) is a new model of execution aiming at fulfilling the promises of near-time quantum computing by executing hybrid classical and quantum Python programs.
 
-We envision a future of quantumn services and invite all the community of proffessional developers, students and quantum enthusiasts to make the most of quantum cloud services using Qiskit Runtime. Even in beta, [developers can download and start experimenting locally](https://github.com/Qiskit-Partners/qiskit-runtime/), leveraging built-in programs or uploading their own, and exposing them as cloud services for others to use.
+We envision a future of quantum services and invite all the community of professional developers, students and quantum enthusiasts to make the most of quantum cloud services using Qiskit Runtime. Even in beta, [developers can download and start experimenting locally](https://github.com/Qiskit-Partners/qiskit-runtime/), leveraging built-in programs or uploading their own, and exposing them as cloud services for others to use.
 
 We challenge the participants to create innovative cloud services on top of custom quantum programs or to find novel applications for the Qiskit Runtime's built-in library.
 
@@ -29,15 +29,19 @@ We challenge the participants to create innovative cloud services on top of cust
 
 Many near-term quantum algorithms are variational, i.e., they involve an optimization loop between classical and quantum computers. For such algorithms the Qiskit Runtime is crucial to improve performance and to scale to larger systems. In the following we'll introduce the currently available Qiskit Runtimes and discuss possible applications:
 
-**Variational Quantum Eigensolver (VQE) Runtime**: VQE is an algorithm to approximate the ground state of a given Hamiltonian by replacing the full exponential Hilbert space by a sub-space determined via a parametrized quantum circuit. A classical optimizer is then used to find the optimal parameters that minimize the expected value defined by the circuit and Hamiltonian. VQE can be applied in many domains, e.g. to find groundstates in quantum chemistry or to find good solutions to combinatorial optimization problems. Finding groundstates is a fundamental task in chemistry and eventually will enable designing new materials, catalysts, etc. Combinatorial optimization is very difficult classically, since the number of possibilities scales exponentially with the number of variables. Possible applications range from portfolio optimization, to optimal routing, to protein folding.
+**Variational Quantum Eigensolver (VQE) Runtime**: VQE is an algorithm to approximate the ground state of a given Hamiltonian by replacing the full exponential Hilbert space by a sub-space determined via a parametrized quantum circuit. A classical optimizer is then used to find the optimal parameters that minimize the expected value defined by the circuit and Hamiltonian. VQE can be applied in many domains, e.g. to find groundstates in quantum chemistry or to find good solutions to combinatorial optimization problems. Finding ground states is a fundamental task in chemistry and eventually will enable designing new materials, catalysts, etc. Combinatorial optimization is very difficult classically, since the number of possibilities scales exponentially with the number of variables. Possible applications range from portfolio optimization, to optimal routing, to protein folding.
 
 **Quantum Approximate Optimization Algorithm (QAOA)**: One key question for VQE is how to chose the parametrized quantum circuit for a given problem. QAOA is a variant of VQE particularly suited for combinatorial optimization where the circuits are constructed based on the given problem and with some convergence guarantees if the circuits could be made long enough. Thus, QAOA has the same applications as VQE but is particularly suited for combinatorial optimization.
 
 **Quantum Kernel Alignment (QKA)**: Quantum computers allow to evaluate kernels to be used e.g. in Support Vector Machines (SVM) on exponentially large feature spaces. This may help to improve the performance of machine learning models and lead to higher accuracies. QKA extends this idea to parametrized kernels that are trained to best match the data. The QKA Runtime allows to align to and evaluate the kernel for given data in the cloud and uses is it for classification tasks such as fraud detection.
 
-<!--
-Add "upload your own program".
--->
+**Your Awesome Program**: Collaboration has always been an important concept in the scientific community. 
+In addition to using the build-in programs, you can come up with your own Qiskit Runtime programs that
+can help you and others accelerate their research. Much like the existing build-in programs, your
+new program will benefit the most from the Qiskit Runtime architecture if it requires iterative 
+quantum/classical processing. Ideally, the program would be flexible enough to suite a wide range of 
+applications but also easy to use.
+
 
 ## Code of Conduct
 
