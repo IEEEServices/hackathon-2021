@@ -148,4 +148,4 @@ The evaluation will be conducted in Gavel platform based on pairwise comparison,
 
 "Quantum Kernel Alignment with Qiskit Runtime," Qiskit Runtime documentation, 2021. [Online]. Available: https://qiskit.org/documentation/partners/qiskit_runtime/tutorials/qka.html. 
 
-B. Johnson and I. Faro, "IBM Quantum delivers 120x speedup of quantum workloads with Qiskit Runtime," IBM Research, 11-May-2021.
+B. Johnson and I. Faro, "IBM Quantum delivers 120x speedup of quantum workloads with Qiskit Runtime," IBM Research, 11-May-2021. [Online]. Available: https://research.ibm.com/blog/120x-quantum-speedup.
