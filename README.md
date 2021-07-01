@@ -43,10 +43,19 @@ quantum/classical processing. Ideally, the program would be flexible enough to s
 applications but also easy to use. [This tutorial](https://github.com/Qiskit-Partners/qiskit-runtime/blob/main/tutorials/02_uploading_program.ipynb)
 shows how to upload your own Qiskit Runtime program.
 
-
 ## Code of Conduct
 
-By participating in the IEEE Services 2021 hackathon, you abide by the [Qiskit Code of Conduct](https://github.com/Qiskit/qiskit/blob/master/CODE_OF_CONDUCT.md).
+By participating in the IEEE Services 2021 hackathon, we all abide by the [Qiskit Code of Conduct](https://github.com/Qiskit/qiskit/blob/master/CODE_OF_CONDUCT.md), [IEEE Code of Conduct](https://www.ieee.org/content/dam/ieee-org/ieee/web/org/about/ieee_code_of_conduct.pdf) and [IEEE Code of Ethics](https://www.ieee.org/about/corporate/governance/p7-8.html)
+
+If you are an observer or a victim of harassment, or any other behaviour against our codes of conduct, **direct your inquiry to one of the following contacts**:
+
+Salvador de la Puente González - [salva@imb.com](mailto:salva@imb.com)
+
+## Meeting point
+
+Either if you are a participant looking for expert help, or a team in the search of coachers, or a coacher willing to help, we meet in Slack.
+
+Access the [Qiskit Slack workspace](https://ibm.co/joinqiskitslack), and join the channel `#ieeeservices-hackathon-21`.
 
 ## How to participate
 
@@ -60,8 +69,9 @@ Here you have a summary about how to participate. Along this README, you will fi
   - License your project under the [Apache license 2.0](https://www.apache.org/licenses/LICENSE-2.0).
   - Write a [report](#project-report) explaning your project and upload it to https://arxiv.org
   - [Tag the final version](https://git-scm.com/book/en/v2/Git-Basics-Tagging) of your project with the tag `submission`.
-6. Wait for [winners announcement](#categories--prizes).
+6. Wait for [preselection](#evaluation-criteria).
 7. Present at SERVICES 2021!
+8. Wait for [winners announcement](#categories--prizes).
 
 ## Categories & prizes
 
@@ -94,17 +104,17 @@ Remember the repository should include all the files detailed in [Projects & del
 
 For team registration, add the names and institutions of the participants to your [project registration issue](https://github.com/IEEEServices/hackathon-2021/issues).
 
-Teams participating in the student category will be composed only of students, not counting mentors.
+Teams participating in the student category will be composed only of students, not counting coachers.
 
-Teams participating in the general category do not have any restriction but cannot have any mentor.
+Teams participating in the general category do not have any restriction but cannot have any coacher.
 
-In any case, **a team cannot be more than 6 participants**, excluding mentors, and **a participant can join only one team**.
+In any case, **a team cannot be more than 6 participants**, excluding coacher, and **a participant can join only one team**.
 
-## Mentors
+## Coachers
 
-Teams of students can team up with one mentor from the industry and one mentor coming from the academia. [Find your mentor](https://airtable.com/shrxy3zEj8wM5ipLR)!
+Teams of students can team up with one coacher from the industry and one coacher coming from the academia.
 
-**Want to be a mentor?** [Register](https://airtable.com/shr1CbDksw2htnG48), access the [Qiskit Slack workspace](https://ibm.co/joinqiskitslack), and join the channel `#ieeeservices-hackathon-21`.
+**Want to be a coacher?** Look at the [projects registered](https://github.com/IEEEServices/hackathon-2021/issues/) or [meet us on Slack](#meeting-point).
 
 ##  Project report
 
@@ -118,6 +128,8 @@ The report contextualizes the project and summarizes the software design process
 6. Technology stack, design decisions, and architecture.
 
 ## Evaluation criteria
+
+Once 
 
 <!--
 The evaluation will be conducted in Gavel platform based on pairwise comparison, based on Gavel's algorithm (https://www.anishathalye.com/2015/03/07/designing-a-better-judging-system). We will recommend our judges to consider following criteria when conducting pairwise comparisons.
