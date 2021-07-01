@@ -152,21 +152,14 @@ The evaluation will be conducted in Gavel platform based on pairwise comparison,
 
 ##  References
 
-<!--
-[1] Dwork, C. (2008, April). Differential privacy: A survey of results. In International conference on theory and applications of models of computation (pp. 1-19). Springer, Berlin, Heidelberg.
+"Qiskit Runtime," IBM Quantum Lab documentation, 2021. [Online]. Available: https://quantum-computing.ibm.com/lab/docs/iql/runtime/. 
 
-[2] Dwork, C., & Roth, A. (2014). The algorithmic foundations of differential privacy. Foundations and Trends in Theoretical Computer Science, 9(3-4), 211-407.
+"Simulating Molecules using VQE," Qiskit Textbook, 2021. [Online]. Available: https://qiskit.org/textbook/ch-applications/vqe-molecules.html.
 
-[3] Costan, Victor, and Srinivas Devadas. "Intel SGX Explained." IACR Cryptol. ePrint Arch. 2016, no. 86 (2016): 1-118.
+"Solving combinatorial optimization problems using QAOA," Qiskit Textbook, 2021. [Online]. Available: https://qiskit.org/textbook/ch-applications/qaoa.html. 
 
-[4] Gentry, Craig, Amit Sahai, and Brent Waters. "Homomorphic encryption from learning with errors: Conceptually-simpler, asymptotically-faster, attribute-based." Annual Cryptology Conference. Springer, Berlin, Heidelberg, 2013.
+"Variational Quantum Linear Solver," Qiskit Textbook, 2021. [Online]. Available: https://qiskit.org/textbook/ch-paper-implementations/vqls.html.
 
-[5] Yang, Q., Liu, Y., Chen, T., & Tong, Y. (2019). Federated machine learning: Concept and applications. ACM Transactions on Intelligent Systems and Technology (TIST), 10(2), 1-19.
+"Quantum Kernel Alignment with Qiskit Runtime," Qiskit Runtime documentation, 2021. [Online]. Available: https://qiskit.org/documentation/partners/qiskit_runtime/tutorials/qka.html. 
 
-[6] Konečný, Jakub, et al. "Federated learning: Strategies for improving communication efficiency." arXiv preprint arXiv:1610.05492 (2016).
-
-[7] Sheth, Amit P., and James A. Larson. "Federated database systems for managing distributed, heterogeneous, and autonomous databases." ACM Computing Surveys (CSUR) 22, no. 3 (1990): 183-236.
-
-[8] McSherry, Frank, and Ilya Mironov. "Differentially private recommender systems: Building privacy into the netflix prize contenders." Proceedings of the 15th ACM SIGKDD international conference on Knowledge discovery and data mining. 2009.
-
--->
+B. Johnson and I. Faro, "IBM Quantum delivers 120x speedup of quantum workloads with Qiskit Runtime," IBM Research, 11-May-2021. [Online]. Available: https://research.ibm.com/blog/120x-quantum-speedup.
