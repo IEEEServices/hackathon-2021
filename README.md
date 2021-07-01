@@ -129,28 +129,23 @@ The report contextualizes the project and summarizes the software design process
 
 ## Evaluation criteria
 
-Once 
+Once passed the [deadline](#submitting---submission-deadline), the hackathon committee will evaluate the projects according to the following criteria:
 
 <!--
 The evaluation will be conducted in Gavel platform based on pairwise comparison, based on Gavel's algorithm (https://www.anishathalye.com/2015/03/07/designing-a-better-judging-system). We will recommend our judges to consider following criteria when conducting pairwise comparisons.
-
-
-1.	Novelty of the idea (0 – 9 scale); 
-
-2.	Privacy level and explanation (0 -9 scale)
-
-3.	Clarity of the report (0 – 9 scale);
-
-4.	Easiness for setting up and using the system (0 –9 scale);
-
-5.	Performance, usability, and reliability of the system (0-9 scale)
 -->
 
+1.	Novelty of the idea (1 – 5 scale); 
+2.	[Applicability](#project-report) (1 - 5 scale);
+3.	Role of Qiskit Runtime (1 - 5 scale);
+4.	Clarity of the report (1 – 5 scale);
+5.	Easiness for setting up and using the system (1 – 5 scale);
+6.	Performance, usability, and reliability of the system (1 - 5 scale)
+7.	Code-base quality: learning curve to start contributing, code reliability, maintainability and documentation. (1 - 4 scale)
+
+The hackathon committee will then preselect the best ones for presenting during IEEE SERVICES and, after evaluating the presentations, the hackathon committee will determine the winners of the hackathon.
 
 ## Learning materials
-
-
-##  References
 
 "Qiskit Runtime," IBM Quantum Lab documentation, 2021. [Online]. Available: https://quantum-computing.ibm.com/lab/docs/iql/runtime/. 
 
@@ -161,5 +156,7 @@ The evaluation will be conducted in Gavel platform based on pairwise comparison,
 "Variational Quantum Linear Solver," Qiskit Textbook, 2021. [Online]. Available: https://qiskit.org/textbook/ch-paper-implementations/vqls.html.
 
 "Quantum Kernel Alignment with Qiskit Runtime," Qiskit Runtime documentation, 2021. [Online]. Available: https://qiskit.org/documentation/partners/qiskit_runtime/tutorials/qka.html. 
+
+##  References
 
 B. Johnson and I. Faro, "IBM Quantum delivers 120x speedup of quantum workloads with Qiskit Runtime," IBM Research, 11-May-2021. [Online]. Available: https://research.ibm.com/blog/120x-quantum-speedup.
