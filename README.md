@@ -142,6 +142,8 @@ The evaluation will be conducted in Gavel platform based on pairwise comparison,
 
 "Qiskit Runtime," IBM Quantum Lab documentation, 2021. [Online]. Available: https://quantum-computing.ibm.com/lab/docs/iql/runtime/. 
 
+"Simulating Molecules using VQE," Qiskit Textbook, 2021. [Online]. Available: https://qiskit.org/textbook/ch-applications/vqe-molecules.html.
+
 "Solving combinatorial optimization problems using QAOA," Qiskit Textbook, 2021. [Online]. Available: https://qiskit.org/textbook/ch-applications/qaoa.html. 
 
 "Variational Quantum Linear Solver," Qiskit Textbook, 2021. [Online]. Available: https://qiskit.org/textbook/ch-paper-implementations/vqls.html.
