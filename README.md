@@ -141,7 +141,7 @@ The evaluation will be conducted in Gavel platform based on pairwise comparison,
 4.	Clarity of the report (1 – 5 scale);
 5.	Easiness for setting up and using the system (1 – 5 scale);
 6.	Performance, usability, and reliability of the system (1 - 5 scale)
-7.	Code-base quality: learning curve to start contributing, code reliability, maintainability and documentation. (1 - 4 scale)
+7.	Code-base quality: learning curve to start contributing, code reliability, maintainability and documentation. (1 - 5 scale)
 
 The hackathon committee will then preselect the best ones for presenting during IEEE SERVICES and, after evaluating the presentations, the hackathon committee will determine the winners of the hackathon.
 
