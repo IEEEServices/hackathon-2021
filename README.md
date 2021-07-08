@@ -65,7 +65,7 @@ Here you have a summary about how to participate. Along this README, you will fi
 2. Choose a [category](#categories--prizes) to participate.
 3. Find your [team members](#team-formation) and [register the project](https://github.com/IEEEServices/hackathon-2021/issues/new?assignees=&labels=&template=project-registration.md&title=Project+name). Do this as soon as possible, you can modify the project details later.
 4. Start hacking!
-5. Upon submission deadline on **September, 30th**, ensure that you...
+5. Upon submission deadline on **August, 30th**, ensure that you...
   - License your project under the [Apache license 2.0](https://www.apache.org/licenses/LICENSE-2.0).
   - Write a [report](#project-report) explaning your project and upload it to https://arxiv.org
   - [Tag the final version](https://git-scm.com/book/en/v2/Git-Basics-Tagging) of your project with the tag `submission`.
@@ -94,7 +94,7 @@ A team can only participate with one project. The deliverable is a GitHub reposi
 
 ## Submitting & submission deadline
 
-All submissions need to be finalized by **Monday September 30, midnight Eastern Standard Time, Time zone in New York, NY (GMT-5)**.
+All submissions need to be finalized by **Monday August 30, midnight Eastern Standard Time, Time zone in New York, NY (GMT-5)**.
 
 Upon submission, [tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging) the version of the project you want to be evaluated with the tag `submission`.
 
