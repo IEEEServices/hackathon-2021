@@ -129,7 +129,7 @@ The report contextualizes the project and summarizes the software design process
 
 ## Evaluation criteria
 
-Once passed the [deadline](#submitting---submission-deadline), the hackathon committee will evaluate the projects according to the following criteria:
+Once passed the [deadline](#submitting--submission-deadline), the hackathon committee will evaluate the projects according to the following criteria:
 
 <!--
 The evaluation will be conducted in Gavel platform based on pairwise comparison, based on Gavel's algorithm (https://www.anishathalye.com/2015/03/07/designing-a-better-judging-system). We will recommend our judges to consider following criteria when conducting pairwise comparisons.
