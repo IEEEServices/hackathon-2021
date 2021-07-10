@@ -49,7 +49,7 @@ By participating in the IEEE Services 2021 hackathon, we all abide by the [Qiski
 
 If you are an observer or a victim of harassment, or any other behaviour against our codes of conduct, **direct your inquiry to one of the following contacts**:
 
-Salvador de la Puente González - [salva@imb.com](mailto:salva@imb.com)
+Salvador de la Puente González - [salva@ibm.com](mailto:salva@ibm.com)
 
 ## Meeting point
 
