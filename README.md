@@ -64,14 +64,18 @@ Here you have a summary about how to participate. Along this README, you will fi
 1. If you did not read the [code of conduct](https://github.com/Qiskit/qiskit/blob/master/CODE_OF_CONDUCT.md), start by reading it.
 2. Choose a [category](#categories--prizes) to participate.
 3. Find your [team members](#team-formation) and [register the project](https://github.com/IEEEServices/hackathon-2021/issues/new?assignees=&labels=&template=project-registration.md&title=Project+name). Do this as soon as possible, you can modify the project details later.
-4. Start hacking!
-5. Upon submission deadline on **August, 30th**, ensure that you...
-  - License your project under the [Apache license 2.0](https://www.apache.org/licenses/LICENSE-2.0).
-  - Write a [report](#project-report) explaning your project and upload it to https://arxiv.org
-  - [Tag the final version](https://git-scm.com/book/en/v2/Git-Basics-Tagging) of your project with the tag `submission`.
-6. Wait for [preselection](#evaluation-criteria).
-7. Present at SERVICES 2021!
-8. Wait for [winners announcement](#categories--prizes).
+4. Participate:
+    1. Download the beta of [Qiskit Runtime](https://github.com/Qiskit-Partners/qiskit-runtime/)
+    2. Thinking on leveraging an existing program? Complete the [VQE tutorial]()!
+    3. Or maybe thinking of adding your own? Check out how to "[run your own program]()".
+    4. Start hacking your idea!
+6. Upon submission deadline on **August, 30th**, ensure that you...
+    - License your project under the [Apache license 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+    - Write a [report](#project-report) explaning your project and upload it to https://arxiv.org
+    - [Tag the final version](https://git-scm.com/book/en/v2/Git-Basics-Tagging) of your project with the tag `submission`.
+7. Wait for [preselection](#evaluation-criteria).
+8. Present at SERVICES 2021!
+9. Wait for [winners announcement](#categories--prizes).
 
 ## Categories & prizes
 
