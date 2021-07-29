@@ -25,6 +25,26 @@ We envision a future of quantum services and invite all the community of profess
 
 We challenge the participants to create innovative cloud services on top of custom quantum programs or to find novel applications for the Qiskit Runtime's built-in library.
 
+## How to participate
+
+Here you have a summary about how to participate. Along this README, you will find more details about the conference. We encourage reading it from begenning to end.
+
+1. If you did not read the [code of conduct](https://github.com/Qiskit/qiskit/blob/master/CODE_OF_CONDUCT.md), start by reading it.
+2. Choose a [category](#categories--prizes) to participate.
+3. Find your [team members](#team-formation) and [register the project](https://github.com/IEEEServices/hackathon-2021/issues/new?assignees=&labels=&template=project-registration.md&title=Project+name). Do this as soon as possible, you can modify the project details later.
+4. Participate:
+    1. Download the beta version of [Qiskit Runtime + Test Server](https://github.com/delapuente/qiskit-runtime/)
+    2. Learn how to [locally run a test server](https://github.com/delapuente/qiskit-runtime/blob/main/qiskit_runtime/test_server/README.md).
+    3. Read about [accessing the REST API directly](https://github.com/delapuente/qiskit-runtime/blob/main/tutorials/API_direct.ipynb) and [writing your own programs](https://github.com/delapuente/qiskit-runtime/blob/main/qiskit_runtime/test_server/README.md#new-programs).
+    4. Start hacking your idea!
+6. Upon submission deadline on **August, 30th**, ensure that you...
+    - License your project under the [Apache license 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+    - Write a [report](#project-report) explaning your project and upload it to https://arxiv.org
+    - [Tag the final version](https://git-scm.com/book/en/v2/Git-Basics-Tagging) of your project with the tag `submission`.
+7. Wait for [preselection](#evaluation-criteria).
+8. Present at SERVICES 2021!
+9. Wait for [winners announcement](#categories--prizes).
+
 ##  Motivating scenarios (use cases)
 
 Many near-term quantum algorithms are variational, i.e., they involve an optimization loop between classical and quantum computers. For such algorithms the Qiskit Runtime is crucial to improve performance and to scale to larger systems. In the following we'll introduce the currently available Qiskit Runtimes and discuss possible applications:
@@ -56,22 +76,6 @@ Salvador de la Puente González - [salva@ibm.com](mailto:salva@ibm.com)
 Either if you are a participant looking for expert help, or a team in the search of coachers, or a coacher willing to help, we meet in Slack.
 
 Access the [Qiskit Slack workspace](https://ibm.co/joinqiskitslack), and join the channel `#ieeeservices-hackathon-21`.
-
-## How to participate
-
-Here you have a summary about how to participate. Along this README, you will find more details about the conference. We encourage reading it from begenning to end.
-
-1. If you did not read the [code of conduct](https://github.com/Qiskit/qiskit/blob/master/CODE_OF_CONDUCT.md), start by reading it.
-2. Choose a [category](#categories--prizes) to participate.
-3. Find your [team members](#team-formation) and [register the project](https://github.com/IEEEServices/hackathon-2021/issues/new?assignees=&labels=&template=project-registration.md&title=Project+name). Do this as soon as possible, you can modify the project details later.
-4. Start hacking!
-5. Upon submission deadline on **August, 30th**, ensure that you...
-  - License your project under the [Apache license 2.0](https://www.apache.org/licenses/LICENSE-2.0).
-  - Write a [report](#project-report) explaning your project and upload it to https://arxiv.org
-  - [Tag the final version](https://git-scm.com/book/en/v2/Git-Basics-Tagging) of your project with the tag `submission`.
-6. Wait for [preselection](#evaluation-criteria).
-7. Present at SERVICES 2021!
-8. Wait for [winners announcement](#categories--prizes).
 
 ## Categories & prizes
 
