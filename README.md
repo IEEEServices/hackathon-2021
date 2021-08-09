@@ -1,3 +1,9 @@
+### Latest news
+
+🔊 2021/08/09: All registered developers can now start experimenting with [Qiskit Runtime built-in programs](https://quantum-computing.ibm.com/services). They are public for using with simulators! 🎉🎉
+
+🔊 2021/07/29: Now you can simulate launching Qiskit Runtime programs from a Web service with the [Qiskit Runtime test server](https://github.com/delapuente/qiskit-runtime/#test-server)! This is a special fork of the original Qiskit Runtime repository created for this hackathon.
+
 ## What is this about?
 <!-- About IEEE Services Hackathon -->
 
@@ -19,11 +25,11 @@ Despite the limited execution time, and the relatively high level of noise, the 
 
 ## Proposed task
 
+We challenge the participants to create innovative cloud services on top of custom quantum programs or to find novel applications for the Qiskit Runtime's built-in library.
+
 Introduced by IBM Quantum, [Qiskit Runtime](https://quantum-computing.ibm.com/lab/docs/iql/runtime/) is a new model of execution aiming at fulfilling the promises of near-time quantum computing by executing hybrid classical and quantum Python programs.
 
-We envision a future of quantum services and invite all the community of professional developers, students and quantum enthusiasts to make the most of quantum cloud services using Qiskit Runtime. Even in beta, [developers can download and start experimenting locally](https://github.com/Qiskit-Partners/qiskit-runtime/), leveraging built-in programs or uploading their own, and exposing them as cloud services for others to use.
-
-We challenge the participants to create innovative cloud services on top of custom quantum programs or to find novel applications for the Qiskit Runtime's built-in library.
+We envision a future of quantum services and invite all the community of professional developers, students and quantum enthusiasts to make the most of quantum cloud services using Qiskit Runtime. Even in beta, [developers can download and start experimenting locally](https://github.com/delapuente/qiskit-runtime/#test-server), leveraging built-in programs or uploading their own, and exposing them as cloud services for others to use.
 
 ## How to participate
 
