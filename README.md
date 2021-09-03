@@ -1,5 +1,7 @@
 ### Latest news
 
+🔊 2021/09/03: The IEEE SERVICES 2021 Hackathon is now closed! Congratulations to all the teams that submitted and project 👏👏👏. Early next week we'll announce the preselected project to present at IEEE SERVICES 2021.
+
 🔊 2021/08/09: All registered developers can now start experimenting with [Qiskit Runtime built-in programs](https://quantum-computing.ibm.com/services). They are public for using with simulators! 🎉🎉
 
 🔊 2021/07/29: Now you can simulate launching Qiskit Runtime programs from a Web service with the [Qiskit Runtime test server](https://github.com/delapuente/qiskit-runtime/#test-server)! This is a special fork of the original Qiskit Runtime repository created for this hackathon.
