@@ -1,5 +1,7 @@
 ### Latest news
 
+🔊 2021/09/11: The IEEE SERVICES Hackathon 2021 is over. Thank you everybody for your submissions and contributions. The Hackathon committee awarded Anh Pham and Daniel Beaulieu for [QAOA Hierarchical Clustering](https://github.com/IEEEServices/hackathon-2021/issues/15) in the General category, and Abiskar Thapa, Freya Shah, Jaimil Dalwadi and Yoyo Liu for [The Traveling Salesman Problem](https://github.com/IEEEServices/hackathon-2021/issues/19) in the Student category. 🎉👏👏👏🎉
+
 🔊 2021/09/03: The IEEE SERVICES 2021 Hackathon is now closed! Congratulations to all the teams that submitted and project 👏👏👏. Early next week we'll announce the preselected project to present at IEEE SERVICES 2021.
 
 🔊 2021/08/09: All registered developers can now start experimenting with [Qiskit Runtime built-in programs](https://quantum-computing.ibm.com/services). They are public for using with simulators! 🎉🎉
